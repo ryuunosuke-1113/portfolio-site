@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryunosuke Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-inner">
+        <h1>Ryunosuke Portfolio</h1>
+        <nav>
+          <a href="#works">Works</a>
+          <a href="#skills">Skills</a>
+          <a href="https://github.com/ryuunosuke-1113" target="_blank"
+            >GitHub</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text-area">
+            <p class="label">Web Application Portfolio</p>
+
+            <h2>
+              業務改善を意識した<br />
+              Webアプリを制作しています
+            </h2>
+
+            <p class="hero-text">
+              Laravel / JavaScript / Docker を中心に、
+              在庫管理・社員管理・勤怠管理など、
+              実務を想定したCRUDアプリを制作しています。
+            </p>
+
+            <a class="button" href="#works"> 制作物を見る </a>
+          </div>
+
+          <div class="profile-image">
+            <img src="images/profile.jpg" alt="プロフィール写真" />
+          </div>
+        </div>
+      </section>
+      <section id="works" class="section">
+        <div class="container">
+          <h2 class="section-title">Works</h2>
+
+          <div class="works-grid">
+            <article class="work-card">
+              <h3>在庫管理アプリ</h3>
+
+              <p class="tags">Laravel / Docker / SQLite / Render</p>
+
+              <p>
+                備品とカテゴリーを管理できる業務系アプリです。
+                管理者・一般ユーザーで操作権限を分け、
+                CRUD、検索、CSV出力などを実装しました。
+              </p>
+
+              <div class="test-account">
+                <p><strong>テストアカウント</strong></p>
+
+                <p>管理者：admin@example.com / password</p>
+
+                <p>一般ユーザー：user@example.com / password</p>
+              </div>
+
+              <div class="links">
+                <a
+                  href="https://inventory-management-app-portfolio.onrender.com"
+                  target="_blank"
+                >
+                  デモを見る
+                </a>
+
+                <a
+                  href="https://github.com/ryuunosuke-1113/inventory-management-app"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </div>
+            </article>
+            <article class="work-card">
+              <h3>社員管理システム</h3>
+              <p class="tags">Laravel / Docker / MySQL / Breeze</p>
+              <p>
+                社員情報と部署情報を管理するアプリです。
+                検索、絞り込み、並び替え、ページネーション、権限制御を実装しました。
+              </p>
+              <div class="test-account">
+                <p><strong>テストアカウント</strong></p>
+
+                <p>管理者：admin@example.com / password</p>
+
+                <p>一般ユーザー：user@example.com / password</p>
+              </div>
+
+              <div class="links">
+                <a
+                  href="https://employee-management-app-site.onrender.com"
+                  target="_blank"
+                  >デモを見る</a
+                >
+                <a
+                  href="https://github.com/ryuunosuke-1113/employee-management-app"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </article>
+
+            <article class="work-card">
+              <h3>勤怠管理ツール</h3>
+              <p class="tags">HTML / CSS / JavaScript</p>
+              <p>
+                勤怠データの登録、編集、削除、検索、集計、CSV出力ができるブラウザアプリです。
+                入力チェックやExcel文字化け対策も実装しました。
+              </p>
+              <div class="links">
+                <a
+                  href="https://ryuunosuke-1113.github.io/attendance-management-app/"
+                  target="_blank"
+                  >デモを見る</a
+                >
+                <a
+                  href="https://github.com/ryuunosuke-1113/attendance-management-app"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </article>
+
+            <article class="work-card">
+              <h3>勤怠管理サービスLP AttendFlow</h3>
+              <p class="tags">HTML / CSS / JavaScript</p>
+              <p>
+                勤怠管理サービスを想定したランディングページです。
+                課題提示、機能紹介、FAQ、CTAなど、サービス紹介の流れを意識して制作しました。
+              </p>
+              <div class="links">
+                <a
+                  href="https://ryuunosuke-1113.github.io/attendance-lp/"
+                  target="_blank"
+                  >デモを見る</a
+                >
+                <a
+                  href="https://github.com/ryuunosuke-1113/attendance-lp"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-gray">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <ul class="skill-list">
+            <li>HTML / CSS / JavaScript</li>
+            <li>PHP / Laravel</li>
+            <li>MySQL / SQLite</li>
+            <li>Docker / Docker Compose</li>
+            <li>Git / GitHub</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Ryunosuke Portfolio</p>
+    </footer>
+  </body>
+</html>
